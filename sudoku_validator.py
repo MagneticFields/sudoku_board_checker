@@ -1,4 +1,4 @@
-def validSolution(board):
+def valid_solution(board):
     for x in range(len(board)):  # checks the entire board if there are any zeros
         if board[x].count(0) >= 1:
             return False
