@@ -13,7 +13,7 @@ It is not very efficient however since sudoku board has a limited by 9, the code
 
 Example usage:
 
-validSolution([
+validSolution([<br/>
   [5, 3, 4, 6, 7, 8, 9, 1, 2],<br/>
   [6, 7, 2, 1, 9, 5, 3, 4, 8],<br/>
   [1, 9, 8, 3, 4, 2, 5, 6, 7],<br/>
