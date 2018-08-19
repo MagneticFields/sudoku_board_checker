@@ -1,4 +1,9 @@
 def valid_solution(board):
+    """ Simple sudoku board checker, it has 3 steps. First one checks if there are any zeros in the lists, second one searchs
+    rows and look for duplicates, third step checks columns and last step checks for 3 X 3 boxes.
+    input --> list
+    return --> bool """
+    
     for x in range(len(board)):  # checks the entire board if there are any zeros
         if board[x].count(0) >= 1:
             return False
